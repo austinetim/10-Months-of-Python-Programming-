@@ -1,0 +1,233 @@
+
+
+# print("Hello World")
+
+# #String concatenation
+# 'print("Angela" + " "+ "Yu")
+
+# #Fix the code bugs
+# print("Day 1 - String Manipulation")
+# print("String Concatenation is done with the" +  " +"   + " sign")
+# print('e.g. print("Hello" + "World"")')
+# print("New lines can be created with a backslash and n")
+
+# #Working with the input function 
+# #input will get user input in the console
+# #Then print() will print the word "Hello" and the user input
+# print("Hello " + input("What is your name?"))
+
+# #Printing the length of a string using the len() function
+# print("My name is", len(input("What is your name  ")), "characters long")
+
+# #Python Variables
+# #A variable is a container for storing data
+
+# name = input("what is your name?")
+# print(name)
+
+# name = "Angela"
+# length = len(name)
+# print(length)
+
+# #This code interchanges the values of a and b
+# a = input("a:  ")
+# b = input("b:  ")
+
+# c = a
+
+# a = b
+
+# b = c
+
+# #This code is achieves the came result but what if they are immiscible?
+# c = a + b
+# a =str(c-a)
+# b =str( c-b)
+
+# print("a =  " + a)
+# print("b =  " +  b)
+
+# #--------------------------------------------------------------------------------------------------------------------------
+# #--------------------------------------------------------------------------------------------------------------------------
+# #Rules for naming variables
+# #Make your code readabler
+# #Underscores sepearate multiple words in a variable name
+# #No numbers or special characters at the beginning of a variable name
+# #No special charaters in a variable name with the exception of an underscore
+# #Do not use built in functions as variable names
+ 
+ 
+
+
+# #Day 2 Notes
+
+# #--------------------------------------------------------------------------------------------------------------------------
+# #    Data Types, Numbers, Operations, Type conversion, f-strings
+# #--------------------------------------------------------------------------------------------------------------------------
+ 
+# #Data Types
+ 
+#  #Strings
+# print( "Hello"[4])  #This is called Subscripting
+# print("123" + "345")
+ 
+#  #Integers---all whole numbers, +ve or -ve
+ 
+# print(123 + 345)
+ 
+#  #Large numbers that require commas as in finance are written with underscore(s), _ between them
+
+#  #Float---numbers with decimal points-decimal points flow around a number
+ 
+# print(3.14159)
+
+# #Boolean--true and false valus
+
+# True
+# False
+
+
+# #Type Error, Type check, Type conversion or Type casting
+
+# #You can't concatenate dissimilar data type'
+# num_char = len(input("What is your name?"))
+# print(type(num_char))
+# #print("Your name has " + num_char + "characters")
+
+# a = float(123)
+
+# print(type(a))
+
+# print(float(40) + int(100))
+
+
+# #Mathematical Operators in Python
+
+# 3 + 5
+
+# 7 - 4
+
+# 3 * 2
+
+# 6 / 3  #returns a float by default
+
+# 2 ** 3
+
+# #Priority of operations
+
+# #PEMDAS L-R
+# #  ()
+# #  **
+# #  * /
+# #  + -
+
+
+# print(3*(3+3)/3-3)
+
+
+
+
+ 
+# #Rounding numbers
+
+# print(round(9/2.9, 3))
+ 
+# print(round(2.666666666, 2))
+
+# print(8 // 3) #returns an integer
+
+# print(8 / 3) #returns floating point number
+ 
+# result = 4 / 2
+ 
+# result /=2
+ 
+# print(result)
+ 
+ 
+#  #Updating the value of a variable---manipulating a value based on the previous value
+
+# score = 0
+
+# # User scores a point
+ 
+# score +=1
+# score -=1
+# score  /=1
+# score *=1
+# score +=1
+# #instead of 
+# #score = score + 1
+# print(score)
+
+# #Working with f-Strings---makes it easy to mix strings and different data types
+
+# score = 0
+# height = 1.8
+# isWinning = True
+
+# print(f"Your score is {score}, your height is {height}, you are winning is {isWinning}")
+
+
+
+
+
+
+# #Day 3
+# #-----------------------------------------------------
+# #if-else statements
+# #Nested if statements and elif statements
+
+# #Modulo 
+
+# number = int(input("Enter a number:  "))
+
+# if number % 2 == 0:
+# 	print("This is an even number")
+# else:
+# 	print("This is an old number")
+
+
+
+
+
+# #Multiple if-else statements
+
+
+
+
+# #Logical Operators
+# # and --both conditions have to be true
+# # or -- only one of the conditions have to true
+# # not --reverses a condition
+
+
+	
+
+# #Randomization
+# #Using the random module
+
+# #Python uses the -----Mersenne-Twister------- to generate random numbers.
+ 
+# #AskPython.com conains the explanation to all python modules modules
+
+# import random
+# import my_module
+# random_integer = random.randint(1, 10)
+# print(random_integer)
+# print(my_module.pi)
+
+# random_float = random.random()
+# rounded_value = round
+
+# #31-12-2025
+
+# #Lists---Used to store related piece of data in an orderly manner
+
+# fruits = ["Apple", "Perl", "Cherry"]
+
+# print(fruits)
+# print(fruits[0])
+# print(fruits[-1])
+# fruits.append("Mango")
+# print(fruits)
