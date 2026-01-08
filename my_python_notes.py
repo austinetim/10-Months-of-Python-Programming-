@@ -237,8 +237,32 @@
 # Nested lists are common in python.
 # One common error you might come across when dealing with lists is "list index out of range."
 
-fruits = ["mango", "Orange", "Banana"]
-vegetables = ["Spinach", "Tomatoes", "Potatoes"]
+# fruits = ["mango", "Orange", "Banana"]
+# vegetables = ["Spinach", "Tomatoes", "Potatoes"]
 
-dirty_dozen = [fruits, vegetables]
-print(dirty_dozen)
+# dirty_dozen = [fruits, vegetables]
+# print(dirty_dozen)
+
+#08/01/2026
+
+#Functions--python has a wide range of built-in funactions--check the python documentation
+
+# A function can be identified by the its name and parenthesis e.g print(), len(), int(), str(), input(), count(), sample(), choices(), sum().
+
+#This how you write a function: we define the function using the def keyword, followed by a name
+# What differentiates a function from a variable is the parenthesis
+# A function will remain dormant when executed unless it is triggered or call later on in the code. You can define a function and call it any time you have need of it in the code.
+# To call the function, type the name of the function followed by parenthesis and add the input if need be.
+# After a function is called, the computer knows how to go and carry out all the instructions encompassed within the fuction.
+#
+
+# # Defining Fuctions
+# def my_function():
+#     #Do this
+#     print("Hello")
+#     #Then do this
+#     print("Bye")
+# #Calling Functions
+# my_function()
+
+ 
