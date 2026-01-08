@@ -32,8 +32,7 @@ gen_pass = selected_letters + selected_numbers + selected_symbols
 # Re-randomize the list to get a random mixture of letters, symbols and numbers
 gen_pass = random.sample(gen_pass, len(gen_pass))
 print(gen_pass)
-# Loop through the list and get hold of every character. Afterwards, join them alltogether and store in a variable
-
+#Join the characters together and store in a variable
 final_pass = "".join(gen_pass)
 print(f"Here is your final password: {final_pass}")
 
@@ -56,7 +55,7 @@ print(f"Here is your final password: {final_pass}")
 # # Re-randomize the list to get a random mixture of letters, symbols and numbers
 # gen_pass = random.sample(gen_pass, len(gen_pass))
 
-# # Loop through the list and get hold of every character. Afterwards, join them alltogether and store in a variable
+# # Join the charaters together and store in a variable
 
 # final_pass = ''.join(gen_pass)
 # print(f"Here is your password: {final_pass}")
