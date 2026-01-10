@@ -265,4 +265,38 @@
 # #Calling Functions
 # my_function()
 
- 
+# # 10/01/2026
+# # Indentation--It is very important in python. It defines the scope of a particular program.
+
+# # Indentatation in practice
+# def my_function():
+#     a = 5
+#     b = 6
+#     print(a)
+#     print(b)
+# my_function()
+
+# # a and b are on the same level of indentation
+# # my_function() and a/b are not on the same level of indentation
+# # some people prefer spaces over files. in python3, you can't even mix spaces and tabs in your code.
+# # Spaces are preferable. 
+# # The default number of spaces for indentation in python is 4 spaces or 4 dots.
+
+# while-loops - It continues as long as a condition is true
+
+# Use cases of for-loop
+# Looping through a list of items
+# Creating a range of  values and working on them
+
+# while something_is_true:
+#     Do this
+#     Then do this
+#     Then do this
+
+# When do we use for-loop or while-loop?
+
+# for-loop is great when you are iterating over something and you want to perform an action on every element in that thing. You also use a for-loop when you are iterating over a range of values
+
+# You use a while-loop when you don't care what number in a sequence you are in, which item you are iterating through in a list and you just simply want to carry out some functionality many times until some sort of condition set.
+
+# while-loops are a little more dangerous than for-loops in that in for-loops, you actually set the number of times you want your code to run in advance, while-loops run as long as a condition is true. If you have a condition that doesn't actually evaluates to false, it'll continue to run without breaking potentially crashing your device. It becomes an infinite loop.
