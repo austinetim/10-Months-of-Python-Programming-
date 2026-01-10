@@ -79,30 +79,30 @@
 # #Method 4---Using a while loop for the program
 # #----------------------------------------------------------------------
 
-# Define the turn_right() function
-def turn_right():
-    turn_left()
-    turn_left()
-    turn_left()
+# # Define the turn_right() function
+# def turn_right():
+#     turn_left()
+#     turn_left()
+#     turn_left()
 
-#Using a function for the jumps
-def jump():
-    move()
-    turn_left()
-    move()
-    turn_right()
-    move()
-    turn_right()
-    move()
-    turn_left()
+# #Using a function for the jumps
+# def jump():
+#     move()
+#     turn_left()
+#     move()
+#     turn_right()
+#     move()
+#     turn_right()
+#     move()
+#     turn_left()
 
-# while-loop to perform the jump() function 3 times
+# # while-loop to perform the jump() function 3 times
 
-number_of_hurdles = 3
-while number_of_hurdles > 0:
-    jump()
-    number_of_hurdles -= 1
-    print(number_of_hurdles)
+# number_of_hurdles = 3
+# while number_of_hurdles > 0:
+#     jump()
+#     number_of_hurdles -= 1
+#     print(number_of_hurdles)
 
 # #---------------------------------------------------------------------
 # #Method 4---Using while-loop with the at_goal() function to stop the robot whenever it finds a flag
