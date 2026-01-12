@@ -300,3 +300,9 @@
 # You use a while-loop when you don't care what number in a sequence you are in, which item you are iterating through in a list and you just simply want to carry out some functionality many times until some sort of condition set.
 
 # while-loops are a little more dangerous than for-loops in that in for-loops, you actually set the number of times you want your code to run in advance, while-loops run as long as a condition is true. If you have a condition that doesn't actually evaluates to false, it'll continue to run without breaking potentially crashing your device. It becomes an infinite loop.
+
+# 12/01/2026
+
+# Hangman program
+
+# "python for education" by google is a great resources
