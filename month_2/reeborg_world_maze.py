@@ -1,0 +1,17 @@
+# # This program instructs the robot to complete a maze
+# # Define the turn_right() function
+# def turn_right():
+#     turn_left()
+#     turn_left()
+#     turn_left()
+
+    
+    
+# while not at_goal():
+#     if right_is_clear():
+#         turn_right()
+#         move()
+#     elif fron_is_clear():
+#         move()
+#     else:
+#         turn_left()
