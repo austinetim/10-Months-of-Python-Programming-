@@ -92,15 +92,20 @@ while not end_of_game:
         # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
         if letter == guess:
             display[position] = letter
-        elif letter != guess:
-            lives -= 1
-            if lives < 1:
-                print("You lose!")
-        else:
-            print("You win")
-    # if "_" not in display:
-    #     end_of_game = True
-    #     print("You win!")
+    if guess not in chosen_word:
+        lives -= 1
+        if lives == 0:
+            end_of_game = True
+            print("You lose!")
+
+    print(f"{" ".join(display)}")
+    if "_" not in display:
+        end_of_game = True
+        print("You win!")
+
+    # Print the ascii are from 'stages' that corresponds to the current number of 'lives' the user has remaining.
+
+    print(stages[lives])
 
 
 
