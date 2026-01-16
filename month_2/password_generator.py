@@ -1,45 +1,61 @@
-# This program is built ti mimick the popular hangman game
+# password generator
 
-# Step 1
 import random
-word_list = ["advark", "baboon", "camel"]
 
-#todo-1 - Randomly choose a word from the word_list and assign it to a variable called chosen_word.
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
-chosen_word = random.choice(word_list)
-print(chosen_word)
+numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-# TO_DO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
-# guess = input("Guess a letter: ").lower()
+symbols = ['@', '#', '$', '%', '&', '*', '(', ')', '!', '?', "+"]
 
-# TO_DO-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
-# for letter in chosen_word:
-#     if letter == guess:
-#         print("Right")
+print("Welcome to the Password Generator")
 
-#     else:
-#         print("Wrong")
+nr_letters = int(input("How many letters would like in your password?\n"))
+nr_symbols = int(input("How many symbols would like?\n"))
+nr_numbers = int(input("How many numbers would like?\n"))
+nr_total = nr_letters + nr_symbols + nr_numbers
+print(nr_total)
 
-# 13/01/2026
+# Using random.sample()
+# Here the password is created without repeated charaters
 
-# TO_DO-2: - Loop through each position in the chosen_word;
-#If the letter at the position matches 'guess' then reveal that letter in the display at that position. 
-display = []
+selected_letters = random.sample(letters, nr_letters)
+selected_numbers = random.sample(numbers, nr_numbers)
+selected_symbols = random.sample(symbols, nr_symbols)
+
+#print(selected_letters)
+#print(selected_numbers)
+#print(selected_symbols)
+
+gen_pass = selected_letters + selected_numbers + selected_symbols
+
+# Re-randomize the list to get a random mixture of letters, symbols and numbers
+gen_pass = random.sample(gen_pass, len(gen_pass))
+print(gen_pass)
+#Join the characters together and store in a variable
+final_pass = "".join(gen_pass)
+print(f"Here is your final password: {final_pass}")
 
 
-# TO_DO 3 - Use a while loop to let the user guess again. The loop should only stop once the user guessed all the letters in the chosen_word and 'display' has no more blanks ("_"). Then you can tell the user they've won.
+# # Using random.choices()
+# # Here the password is created with or without repeated characters
 
-guess_checker = ["a"]
-print(len(guess_checker))
-print(len(chosen_word))
-while len(guess_checker) < len(chosen_word):
-    guess = input("Guess a letter: ").lower()
-    guess_checker += guess
-    for letter in range(0, len(chosen_word)):
-        if guess == chosen_word[letter]:
-            display += guess
-        else:
-            display += "_"
+# selected_letters = random.choices(letters, k=nr_letters)
+# selected_numbers = random.choices(numbers, k=nr_numbers)
+# selected_symbols = random.choices(symbols, k=nr_symbols)
+# print(type(selected_letters[0]))
 
-display = " ".join(display)
-print(display)
+# print(selected_letters)
+# print(selected_numbers)
+# print(selected_symbols)
+
+# gen_pass = selected_letters + selected_numbers + selected_symbols
+# print(gen_pass)
+ 
+# # Re-randomize the list to get a random mixture of letters, symbols and numbers
+# gen_pass = random.sample(gen_pass, len(gen_pass))
+
+# # Join the charaters together and store in a variable
+
+# final_pass = ''.join(gen_pass)
+# print(f"Here is your password: {final_pass}")

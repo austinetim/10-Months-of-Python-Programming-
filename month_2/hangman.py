@@ -98,7 +98,7 @@ while not end_of_game:
             end_of_game = True
             print("You lose!")
 
-    print(f"{" ".join(display)}")
+    # print(f"{" ".join(display)}")
     if "_" not in display:
         end_of_game = True
         print("You win!")

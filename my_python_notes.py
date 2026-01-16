@@ -306,3 +306,15 @@
 # Hangman program
 
 # "python for education" by google is a great resources
+
+#13/01/2026
+# It is important to note that while loops require a change in the loop to tell it that the condition has reached.
+
+# #For example: The code below is an infinite loop
+# end_of_game = False
+# for i in range(0, 200):
+#     print(i)
+#     while not end_of_game:
+#         if i == 100:
+#             end_of_game = True
+#         print(i)
