@@ -2,66 +2,14 @@
 
 # Step 1
 import random
+import hangman_words
+import hangman_arts
 
-stages = ['''
-   +---+
-   |   |
-   O   |
-  /|\  |
-  / \  |
-       |
-==========
-''', '''
-  +---+
-   |   |
-   O   |
-  /|\  |
-  /    |
-       |
-==========
-''', '''
-  +---+
-   |   |
-   O   |
-  /|\  |
-       |
-       |
-==========
-''', '''
-  +---+
-   |   |
-   O   |
-  /|   |
-       |
-       |
-==========
-''', '''
-   +---+
-   |   |
-   O   |
-   |   |
-       |
-       |
-==========
-''', '''
-   +---+
-   |   |
-   O   |
-       |
-       |
-       |
-==========
-''', '''
-  +---+
-   |   |
-       |
-       |
-       |
-       |
-==========
-''']
+print(hangman_arts.logo)
 
-word_list = ["advark", "baboon", "camel"]
+
+word_list = hangman_words.word_list 
+
 
 # Randomly choose a word from the word_list and assign it to a variable called chosen_word.
 
@@ -105,7 +53,7 @@ while not end_of_game:
 
     # Print the ascii are from 'stages' that corresponds to the current number of 'lives' the user has remaining.
 
-    print(stages[lives])
+    print(hangman_arts.stages[lives])
 
 
 
