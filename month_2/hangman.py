@@ -1,9 +1,10 @@
-# This program is built ti mimick the popular hangman game
+# This program is built to mimick the popular hangman game
 
-# Step 1
+
 import random
 import hangman_words
 import hangman_arts
+from clear_terminal import clear
 
 print(hangman_arts.logo)
 
@@ -33,16 +34,15 @@ lives = 6
 
 end_of_game = False
 while not end_of_game:
-    #Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
-
+    
     guess = input("Guess a letter: ").lower()
+    #Clear the screen
+    clear()
     if guess in display:
         print(f"You've already guessed {guess}")
 
-    # Check guessed letter
     for position in range(word_length):
         letter = chosen_word[position]
-        # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
         if letter == guess:
             display[position] = letter
     if guess not in chosen_word:
@@ -56,8 +56,6 @@ while not end_of_game:
     if "_" not in display:
         end_of_game = True
         print("You win!")
-
-    # Print the ascii are from 'stages' that corresponds to the current number of 'lives' the user has remaining.
 
     print(hangman_arts.stages[lives])
 
