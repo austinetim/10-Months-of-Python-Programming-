@@ -318,3 +318,40 @@
 #         if i == 100:
 #             end_of_game = True
 #         print(i)
+
+#20/01/2026
+
+# fUNCTIONS WITH INPUT
+# ARGUMENTS AND PARAMETERS
+
+# -- FUNCTIONS are a handy way of taking a complex set of instructions and packaging them together inside a block of code that has a name given to it.
+
+# --we call the function when we have need of it.
+
+# Review:
+# Create a function called greet()
+# def greet():
+#     #Write 3 print statements inside the function
+#     print("Good morning")
+#     print("Good afternoon")
+#     print("Good evening")
+# #Call the greet() function and run your code
+# greet()
+
+# We can add the name of a variable inside the parenthesis of the function name.
+
+# We can also create a function that allows for input
+# 
+# def my_function(something):
+#     #Do this with something
+#     #Then do this
+#     # And finally do this
+
+# differences between round() and math.ceil()
+# --Use round() when you want to perform proper approximations--it will round it up or down based on the approximation rules. You can also specify the number of decimal places but the same rule applies
+
+# e.g. 5.4 will appr. to 5, 5.5 -- 6
+
+# --Use math.ceil when you want to force a decimal value to approximate to the immediate higher number.
+
+#e.g. 5.1, 5.2 5.4 ... will all appr. to 6
