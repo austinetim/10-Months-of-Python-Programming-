@@ -355,3 +355,10 @@
 # --Use math.ceil when you want to force a decimal value to approximate to the immediate higher number.
 
 #e.g. 5.1, 5.2 5.4 ... will all appr. to 6
+
+# 21/01/2026
+# Functions continued
+
+# CAESAR CIPHER
+
+# To get the index of a paricular letter in a list of alphabets, use the list_name.index(letter)
