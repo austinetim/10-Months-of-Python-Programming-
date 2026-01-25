@@ -14,7 +14,7 @@ nr_letters = int(input("How many letters would like in your password?\n"))
 nr_symbols = int(input("How many symbols would like?\n"))
 nr_numbers = int(input("How many numbers would like?\n"))
 nr_total = nr_letters + nr_symbols + nr_numbers
-print(nr_total)
+print(f"Total number of characters in password: {nr_total}")
 
 # Using random.sample()
 # Here the password is created without repeated charaters
