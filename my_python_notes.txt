@@ -1,0 +1,374 @@
+
+
+# print("Hello World")
+
+# #String concatenation
+# 'print("Angela" + " "+ "Yu")
+
+# #Fix the code bugs
+# print("Day 1 - String Manipulation")
+# print("String Concatenation is done with the" +  " +"   + " sign")
+# print('e.g. print("Hello" + "World"")')
+# print("New lines can be created with a backslash and n")
+
+# #Working with the input function 
+# #input will get user input in the console
+# #Then print() will print the word "Hello" and the user input
+# print("Hello " + input("What is your name?"))
+
+# #Printing the length of a string using the len() function
+# print("My name is", len(input("What is your name  ")), "characters long")
+
+# #Python Variables
+# #A variable is a container for storing data
+
+# name = input("what is your name?")
+# print(name)
+
+# name = "Angela"
+# length = len(name)
+# print(length)
+
+# #This code interchanges the values of a and b
+# a = input("a:  ")
+# b = input("b:  ")
+
+# c = a
+
+# a = b
+
+# b = c
+
+# #This code is achieves the came result but what if they are immiscible?
+# c = a + b
+# a =str(c-a)
+# b =str( c-b)
+
+# print("a =  " + a)
+# print("b =  " +  b)
+
+# #--------------------------------------------------------------------------------------------------------------------------
+# #--------------------------------------------------------------------------------------------------------------------------
+# #Rules for naming variables
+# #Make your code readabler
+# #Underscores sepearate multiple words in a variable name
+# #No numbers or special characters at the beginning of a variable name
+# #No special charaters in a variable name with the exception of an underscore
+# #Do not use built in functions as variable names
+ 
+ 
+
+
+# #Day 2 Notes
+
+# #--------------------------------------------------------------------------------------------------------------------------
+# #    Data Types, Numbers, Operations, Type conversion, f-strings
+# #--------------------------------------------------------------------------------------------------------------------------
+ 
+# #Data Types
+ 
+#  #Strings
+# print( "Hello"[4])  #This is called Subscripting
+# print("123" + "345")
+ 
+#  #Integers---all whole numbers, +ve or -ve
+ 
+# print(123 + 345)
+ 
+#  #Large numbers that require commas as in finance are written with underscore(s), _ between them
+
+#  #Float---numbers with decimal points-decimal points flow around a number
+ 
+# print(3.14159)
+
+# #Boolean--true and false valus
+
+# True
+# False
+
+
+# #Type Error, Type check, Type conversion or Type casting
+
+# #You can't concatenate dissimilar data type'
+# num_char = len(input("What is your name?"))
+# print(type(num_char))
+# #print("Your name has " + num_char + "characters")
+
+# a = float(123)
+
+# print(type(a))
+
+# print(float(40) + int(100))
+
+
+# #Mathematical Operators in Python
+
+# 3 + 5
+
+# 7 - 4
+
+# 3 * 2
+
+# 6 / 3  #returns a float by default
+
+# 2 ** 3
+
+# #Priority of operations
+
+# #PEMDAS L-R
+# #  ()
+# #  **
+# #  * /
+# #  + -
+
+
+# print(3*(3+3)/3-3)
+
+
+
+
+ 
+# #Rounding numbers
+
+# print(round(9/2.9, 3))
+ 
+# print(round(2.666666666, 2))
+
+# print(8 // 3) #returns an integer
+
+# print(8 / 3) #returns floating point number
+ 
+# result = 4 / 2
+ 
+# result /=2
+ 
+# print(result)
+ 
+ 
+#  #Updating the value of a variable---manipulating a value based on the previous value
+
+# score = 0
+
+# # User scores a point
+ 
+# score +=1
+# score -=1
+# score  /=1
+# score *=1
+# score +=1
+# #instead of 
+# #score = score + 1
+# print(score)
+
+# #Working with f-Strings---makes it easy to mix strings and different data types
+
+# score = 0
+# height = 1.8
+# isWinning = True
+
+# print(f"Your score is {score}, your height is {height}, you are winning is {isWinning}")
+
+
+
+
+
+
+# #Day 3
+# #-----------------------------------------------------
+# #if-else statements
+# #Nested if statements and elif statements
+
+# #Modulo 
+
+# number = int(input("Enter a number:  "))
+
+# if number % 2 == 0:
+# 	print("This is an even number")
+# else:
+# 	print("This is an old number")
+
+
+
+
+
+# #Multiple if-else statements
+
+
+
+
+# #Logical Operators
+# # and --both conditions have to be true
+# # or -- only one of the conditions have to true
+# # not --reverses a condition
+
+
+	
+
+# #Randomization
+# #Using the random module
+
+# #Python uses the -----Mersenne-Twister------- to generate random numbers.
+ 
+# #AskPython.com conains the explanation to all python modules modules
+
+# import random
+# import my_module
+# random_integer = random.randint(1, 10)
+# print(random_integer)
+# print(my_module.pi)
+
+# random_float = random.random()
+# rounded_value = round
+
+# #31-12-2025
+
+# #Lists---Used to store related piece of data in an orderly manner
+
+# fruits = ["Apple", "Perl", "Cherry"]
+
+# print(fruits)
+# print(fruits[0])
+# print(fruits[-1])
+# fruits.append("Mango")
+# print(fruits)
+
+# 02/01/2026
+
+# Nested lists are common in python.
+# One common error you might come across when dealing with lists is "list index out of range."
+
+# fruits = ["mango", "Orange", "Banana"]
+# vegetables = ["Spinach", "Tomatoes", "Potatoes"]
+
+# dirty_dozen = [fruits, vegetables]
+# print(dirty_dozen)
+
+#08/01/2026
+
+#Functions--python has a wide range of built-in funactions--check the python documentation
+
+# A function can be identified by the its name and parenthesis e.g print(), len(), int(), str(), input(), count(), sample(), choices(), sum().
+
+#This how you write a function: we define the function using the def keyword, followed by a name
+# What differentiates a function from a variable is the parenthesis
+# A function will remain dormant when executed unless it is triggered or call later on in the code. You can define a function and call it any time you have need of it in the code.
+# To call the function, type the name of the function followed by parenthesis and add the input if need be.
+# After a function is called, the computer knows how to go and carry out all the instructions encompassed within the fuction.
+#
+
+# # Defining Fuctions
+# def my_function():
+#     #Do this
+#     print("Hello")
+#     #Then do this
+#     print("Bye")
+# #Calling Functions
+# my_function()
+
+# # 10/01/2026
+# # Indentation--It is very important in python. It defines the scope of a particular program.
+
+# # Indentatation in practice
+# def my_function():
+#     a = 5
+#     b = 6
+#     print(a)
+#     print(b)
+# my_function()
+
+# # a and b are on the same level of indentation
+# # my_function() and a/b are not on the same level of indentation
+# # some people prefer spaces over files. in python3, you can't even mix spaces and tabs in your code.
+# # Spaces are preferable. 
+# # The default number of spaces for indentation in python is 4 spaces or 4 dots.
+
+# while-loops - It continues as long as a condition is true
+
+# Use cases of for-loop
+# Looping through a list of items
+# Creating a range of  values and working on them
+
+# while something_is_true:
+#     Do this
+#     Then do this
+#     Then do this
+
+# When do we use for-loop or while-loop?
+
+# for-loop is great when you are iterating over something and you want to perform an action on every element in that thing. You also use a for-loop when you are iterating over a range of values
+
+# You use a while-loop when you don't care what number in a sequence you are in, which item you are iterating through in a list and you just simply want to carry out some functionality many times until some sort of condition set.
+
+# while-loops are a little more dangerous than for-loops in that in for-loops, you actually set the number of times you want your code to run in advance, while-loops run as long as a condition is true. If you have a condition that doesn't actually evaluates to false, it'll continue to run without breaking potentially crashing your device. It becomes an infinite loop.
+
+# 12/01/2026
+
+# Hangman program
+
+# "python for education" by google is a great resources
+
+#13/01/2026
+# It is important to note that while loops require a change in the loop to tell it that the condition has reached.
+
+# #For example: The code below is an infinite loop
+# end_of_game = False
+# for i in range(0, 200):
+#     print(i)
+#     while not end_of_game:
+#         if i == 100:
+#             end_of_game = True
+#         print(i)
+
+#20/01/2026
+
+# fUNCTIONS WITH INPUT
+# ARGUMENTS AND PARAMETERS
+
+# -- FUNCTIONS are a handy way of taking a complex set of instructions and packaging them together inside a block of code that has a name given to it.
+
+# --we call the function when we have need of it.
+
+# Review:
+# Create a function called greet()
+# def greet():
+#     #Write 3 print statements inside the function
+#     print("Good morning")
+#     print("Good afternoon")
+#     print("Good evening")
+# #Call the greet() function and run your code
+# greet()
+
+# We can add the name of a variable inside the parenthesis of the function name.
+
+# We can also create a function that allows for input
+# 
+# def my_function(something):
+#     #Do this with something
+#     #Then do this
+#     # And finally do this
+
+# differences between round() and math.ceil()
+# --Use round() when you want to perform proper approximations--it will round it up or down based on the approximation rules. You can also specify the number of decimal places but the same rule applies
+
+# e.g. 5.4 will appr. to 5, 5.5 -- 6
+
+# --Use math.ceil when you want to force a decimal value to approximate to the immediate higher number.
+
+#e.g. 5.1, 5.2 5.4 ... will all appr. to 6
+
+# 21/01/2026
+# Functions continued
+
+# CAESAR CIPHER
+
+# To get the index of a paricular letter in a list of alphabets, use the list_name.index(letter)
+
+27/01/2027
+
+Dictionaries and Nested Lists
+
+Every dictionary has a key and a values
+
+dictionary:
+
+{key:value}
