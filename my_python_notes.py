@@ -362,3 +362,55 @@
 # CAESAR CIPHER
 
 # To get the index of a paricular letter in a list of alphabets, use the list_name.index(letter)
+
+# 27/01/2027
+
+# Dictionaries and Nested Lists
+
+# Every dictionary has two parts to it: key and values
+
+# dictionary:
+
+# {key:value} -- the key goes first followed by the value
+
+# A good practice in python when working with a dictionary is to add the key-values on new lines.
+# Remember to add a comma at the end of the keyt-values
+
+programming_dictionary = {
+    "Bug": "An error in a program that prevents the program from running as expected",
+    "Function": "A piece of code that you can easily calol over and over again",
+}
+
+# Retrieving an element of a dictionary
+# You use a key to indicate the item you wanted to retrieve
+# # The keys are mostly strings
+# print(programming_dictioonary["Bug"])
+
+# Adding new items to dictionary
+
+# programming_dictioonary["Loop"] = "The action of doing something over and over again"
+
+# print(programming_dictioonary)
+# print(programming_dictioonary["Bug"])
+
+# As good practice, it is always better to start with an empty dictionary
+# empty_dictionary = {}
+
+# # Wipe an existing dictionary
+# programming_dictionary = {}
+# print(programming_dictionary)
+
+# You can add items to the empty dictionary by using the method of adding elements into a dictionary
+
+# programming_dictionary["Loop"] = "The action of doing something over and over again"
+
+# print(programming_dictionary)
+
+# # Edit an item in a dictionary
+# # If it finds a key of that name, it will modify it's value; if not, it will be appended at the end of the dictionary
+# programming_dictionary["Bug"] = "A moth in your computer."
+# print(programming_dictionary)
+
+# Looping through a dictionary
+for key in programming_dictionary:
+    print(f"{key}: {programming_dictionary[key]}")
