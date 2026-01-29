@@ -376,10 +376,10 @@
 # A good practice in python when working with a dictionary is to add the key-values on new lines.
 # Remember to add a comma at the end of the keyt-values
 
-programming_dictionary = {
-    "Bug": "An error in a program that prevents the program from running as expected",
-    "Function": "A piece of code that you can easily calol over and over again",
-}
+# programming_dictionary = {
+#     "Bug": "An error in a program that prevents the program from running as expected",
+#     "Function": "A piece of code that you can easily calol over and over again",
+# }
 
 # Retrieving an element of a dictionary
 # You use a key to indicate the item you wanted to retrieve
@@ -412,5 +412,45 @@ programming_dictionary = {
 # print(programming_dictionary)
 
 # Looping through a dictionary
-for key in programming_dictionary:
-    print(f"{key}: {programming_dictionary[key]}")
+# for key in programming_dictionary:
+#     print(f"{key}: {programming_dictionary[key]}")
+
+# NESTING LISTS AND DICTIONARIES
+# Sometimes we may decided given the data to be worked on to use dictionaries or lists as the values of keys in dictionaries -- nesting of lists or dictionaries into a dictionary.
+
+capitals = {
+    "France": "Paris",
+    "Germany": "Berlin"
+}
+
+# Nesting a List in a Dictionary
+
+travel_log = {
+    "France": ["Paris", "Lille", "Dijon"],
+    "Germany": ["Berlin", "Hamburg", "Stuttgart"],
+}
+
+print(travel_log["France"])
+# Nesting Dictionary in a Dictionary 
+
+travel_log = {
+    "France": {"cites_visited": ["Paris", "Lille", "Dijon"], "total_visits": 14},
+    "Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "total_visits": 5},
+}
+
+# Nesting a dictionary in a List
+
+travel_log = [
+    {
+        "country": "France", 
+        "cites_visited": ["Paris", "Lille", "Dijon"], 
+        "total_visits": 14
+    },
+    {
+        "country": "Germany", 
+        "cities_visited": ["Berlin", "Hamburg", "Stuttgart"], 
+        "total_visits": 5
+    },
+]
+
+print(travel_log[0])
