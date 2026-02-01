@@ -1,32 +1,31 @@
 from clear_terminal import clear
 from art import gavel
-
 print(gavel)
 
-# Clear the screen
 bid_data = {}
+end_of_bid = False
 
-bidder_name = input("Enter your name: \n")
-bid_price = input("Enter the amount: \n")
-end_of_bid = True
+def find_highest_bidder(bidding_record):
+    highest_bid = 0
+    winner = ""
+    for bidder in bidding_record:
+        bid_amount = bidding_record[bidder]
+        if bid_amount > highest_bid:
+            highest_bid = bid_amount
+            winner = bidder
+    print(f"The winner is {winner}, with a bid of ${highest_bid}")
+        
 
-while end_of_bid:  
 
-    def add_bidders(name, price):
-        bid_data["Bidder_name"] = name
-        bid_data["bid_price"] = price
 
-    add_bidders(name = bidder_name, price = bid_price)
+while not end_of_bid:  
+    bidder_name = input("Enter your name: ")
+    bid_price = int(input("Enter your bid amount: $"))
+    bid_data[bidder_name] = bid_price
 
-    ask_bidder = input("Are there still other bidders? 'yes' or 'no':\n").lower
-    if ask_bidder == "yes":
+    should_continue = input("Are there still other bidders? 'yes' or 'no':\n").lower()
+    if should_continue == "no":
+       end_of_bid = True
+       find_highest_bidder(bid_data)
+    elif should_continue == "yes":
         clear()
-        bidder_name = input("Enter your name: \n")
-        bid_price = input("Enter the amount: \n")
-        add_bidders(name = bidder_name, price = bid_price)
-  
-        #     max_value = bidder[]
-        #     #Do something important
-        # end_of_bid = False
-
-print(bid_data)
