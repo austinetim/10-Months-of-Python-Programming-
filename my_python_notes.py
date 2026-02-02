@@ -418,39 +418,51 @@
 # NESTING LISTS AND DICTIONARIES
 # Sometimes we may decided given the data to be worked on to use dictionaries or lists as the values of keys in dictionaries -- nesting of lists or dictionaries into a dictionary.
 
-capitals = {
-    "France": "Paris",
-    "Germany": "Berlin"
-}
+# capitals = {
+#     "France": "Paris",
+#     "Germany": "Berlin"
+# }
 
-# Nesting a List in a Dictionary
+# # Nesting a List in a Dictionary
 
-travel_log = {
-    "France": ["Paris", "Lille", "Dijon"],
-    "Germany": ["Berlin", "Hamburg", "Stuttgart"],
-}
+# travel_log = {
+#     "France": ["Paris", "Lille", "Dijon"],
+#     "Germany": ["Berlin", "Hamburg", "Stuttgart"],
+# }
 
-print(travel_log["France"])
-# Nesting Dictionary in a Dictionary 
+# print(travel_log["France"])
+# # Nesting Dictionary in a Dictionary 
 
-travel_log = {
-    "France": {"cites_visited": ["Paris", "Lille", "Dijon"], "total_visits": 14},
-    "Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "total_visits": 5},
-}
+# travel_log = {
+#     "France": {"cites_visited": ["Paris", "Lille", "Dijon"], "total_visits": 14},
+#     "Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "total_visits": 5},
+# }
 
-# Nesting a dictionary in a List
+# # Nesting a dictionary in a List
 
-travel_log = [
-    {
-        "country": "France", 
-        "cites_visited": ["Paris", "Lille", "Dijon"], 
-        "total_visits": 14
-    },
-    {
-        "country": "Germany", 
-        "cities_visited": ["Berlin", "Hamburg", "Stuttgart"], 
-        "total_visits": 5
-    },
-]
+# travel_log = [
+#     {
+#         "country": "France", 
+#         "cites_visited": ["Paris", "Lille", "Dijon"], 
+#         "total_visits": 14
+#     },
+#     {
+#         "country": "Germany", 
+#         "cities_visited": ["Berlin", "Hamburg", "Stuttgart"], 
+#         "total_visits": 5
+#     },
+# ]
 
-print(travel_log[0])
+# print(travel_log[0])
+
+# 02/02/2026
+
+# FUNCTIONS WITH OUTPUTS
+
+def my_function():
+    result = 3 * 2
+    return result
+# Here the return keyword is the output keyword
+# When something is returned in a function, it replaces the function call and becomes the output that can either be printed directly or saved to a variable for later use. 
+# Any code written in a function after the return function never executes.
+# The return keyword is also very helpful in flow control to catch errors and avoid repetions of code where necessary 
