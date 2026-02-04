@@ -459,10 +459,19 @@
 
 # FUNCTIONS WITH OUTPUTS
 
-def my_function():
-    result = 3 * 2
-    return result
+# def my_function():
+#     result = 3 * 2
+#     return result
 # Here the return keyword is the output keyword
 # When something is returned in a function, it replaces the function call and becomes the output that can either be printed directly or saved to a variable for later use. 
 # Any code written in a function after the return function never executes.
 # The return keyword is also very helpful in flow control to catch errors and avoid repetions of code where necessary 
+
+# 04/02/2026
+
+# DOCSTRINGS
+# They are ways of creating a little bit of documentations as we code along
+# We use three quotations marks
+# Note that the three quotation marks can also be used to write a multi-line comment.
+# The official python guidance is to avoid multi-line comments using 3 quotes. It is safer and less confusing to write multi-line comments on different lines and then comment the lines individually
+
