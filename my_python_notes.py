@@ -475,3 +475,12 @@
 # Note that the three quotation marks can also be used to write a multi-line comment.
 # The official python guidance is to avoid multi-line comments using 3 quotes. It is safer and less confusing to write multi-line comments on different lines and then comment the lines individually
 
+#05/06/2026
+
+# Difference between print() and return
+
+# A print() function when used in a function does not allow for use of that function as the input of another function.
+
+# On the other hand, the return keyword enables us to use the output of one function as the input of another function.
+
+# It can be compared to the pipe | symbol in Linux
