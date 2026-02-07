@@ -484,3 +484,19 @@
 # On the other hand, the return keyword enables us to use the output of one function as the input of another function.
 
 # It can be compared to the pipe | symbol in Linux
+
+#07/02/2026
+
+# RECURSION
+# Recursion is the idea that you can have a function call itself
+
+# USE CASE
+# It takes no input and output
+# def recursive_function():
+#     #Do something
+# #We call the recursive function so that it could find the place where it was defined and carry out all of the instructions therein.
+# recursive_function()
+
+# Notes:
+# When using a recursive function with a while loop, care should be taken to avoid infinite loops. It's always a good practice to use recursive functions with a condition.
+
