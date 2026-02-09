@@ -530,4 +530,10 @@
 #     user_cards += new_card #This line of code is shorthand for:
 #     user_cards.extend(new_card) # Whatever you put in the parenthesis of the extend function has to be a list.
 
-#     # It show the erroe message: TypeError: 'function' object is not iterable
+#     # It shows the error message: TypeError: 'function' object is not iterable
+
+# When you only want to add a single item to an existing list, you use append()
+
+# If you are adding a list to an existing list, use:
+# extend() or item += new_item -- this is for reference purpose. Application may vary.
+
