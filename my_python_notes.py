@@ -537,3 +537,78 @@
 # If you are adding a list to an existing list, use:
 # extend() or item += new_item -- this is for reference purpose. Application may vary.
 
+# 15/02/2026
+
+######################SCOPE######################
+# # It shows how we are able to access some parts of our code
+# enemies = 1
+# def increase_enemies():
+#     enemies = 2
+#     print(f"Enemies inside the function: {enemies}")
+
+# increase_enemies()
+# print(f"Enemies outside the function: {enemies}")
+
+# # Local Scope -- exist within functions
+
+# def drink_potion():
+#     potion_strength = 2 # This variable is only available with this function -- local scope
+#     print(potion_strength)
+
+# drink_potion()
+# #print(potion_strength) #Printing this variable here will throw and error. This is because the variable was defined in the function and hence only available within the function
+
+# # Global Scope
+
+# # They are available both within and outside a function
+
+# player_health = 10 # This is a global variable. It is accessible anywhere within the code.
+
+# def drink_potion():
+#     print(player_health) # Global scope makes it possible to aceess the variable from the inside of this function
+# drink_potion()
+# print(player_health) # It is also available here because of the global scope.
+
+# #NAMESPACE --Anything you give a name to has a NameSpace.
+
+# # There is no block scope
+# game_level = 2
+# enemies = ["skeleton", "zombie", "Alien"]
+# if game_level < 5:
+#     new_enemy = enemies[0]
+# print(new_enemy)
+# # Here there is no scope applied to the variable in the if block.
+
+# # Variables within a function are only have scope applies to them.
+
+# #Variables created within blocks like if, for and while donot have scope applied to them.
+
+# # HOW TO MODIFY THE GLOBAL SCOPE
+# # Avoid modifying global scope within a function
+# It is a bad idea to call the local and global variables the same name.
+# enemies = 1
+# def increase_enemies():
+#     global enemies
+#     enemies += 2
+#     print(f"Enemies inside the function: {enemies}")
+# increase_enemies()
+# print(f"Enemies outside the function: {enemies}")
+
+# Modifying global variable inside a function is not safe so the best way is to return the value to want to increment or add to the global variable and access it outside the function.
+# Using the return keyword:
+# enemies = 1
+# def increase_enemies():
+#     return enemies + 1
+# enemies = increase_enemies()
+# print(enemies)
+
+# Constants and Global scope
+
+# Global constants are values that you define and never want to change them again.
+
+# NAMING CONVENTION
+# Names them in upper cases. e.g.,  pi should be PI.
+
+# pi = 3.14159 # use this for a variable that can be changed.
+# PI = 3.14159
+# TWITTER_HANDLE = "@yu_angela"
