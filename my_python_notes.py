@@ -612,3 +612,37 @@
 # pi = 3.14159 # use this for a variable that can be changed.
 # PI = 3.14159
 # TWITTER_HANDLE = "@yu_angela"
+
+
+#17/02/2026
+
+################### KEY-POINTS ABOUT FUNCTIONS###################
+# 
+# With functions, you can use the return keyword to exit in case  of a while loop which usually needs a condition to exit the loop.
+
+###########################################
+# DEBUGGING
+############################################
+
+# Debugging is the process of removing bugs from a code
+
+# Grace Hopper found a moth in a relay that was preventing her code from working as expected.
+
+# Tips and Techiniques to debug a problem.
+# 1. Describe the problem
+
+### Debug the code below:
+# def my_function():
+#     for i in range(1, 20):
+#         if i == 20:
+#             print("You are at the 20th ")
+# my_function()
+
+# # Solution
+# def my_function():
+#     # The range function ommits the upper limit. If you need to use the upper limit you should increase it by 1. 
+#     for i in range(1, 21):
+#         if i == 20: # Here, to use i = 20, we need to increase the range to 21.
+#             print("You are at the 20th iteration ")
+# my_function()
+
