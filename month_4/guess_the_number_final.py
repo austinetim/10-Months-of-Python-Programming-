@@ -1,5 +1,5 @@
 from random import randint
-
+from arts import logo
 # Create a global constants
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
@@ -27,6 +27,7 @@ def set_difficulty():
     
 
 def game():
+    print(logo)
 
     # Choosing a random number between 1 and 100.
     print("Welcome to the Number Guessing Game!")
