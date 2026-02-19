@@ -646,3 +646,17 @@
 #             print("You are at the 20th iteration ")
 # my_function()
 
+# 19/02/2026
+
+# from random import randint
+# dices = ["Dice 1", "Dice 2", "Dice 3", "Dice 3", "Dice 3"]
+# dice_num = randint(1, 6) # Change this value to 5.
+# print(dices[dice_num]) # Picking the 6th die will produce an error cuz indexing starts from zero. 6 dices will stop at 5, the 6th index has nothing.
+
+# Play the computer
+
+year = int(input("what's your year of birth?: "))
+if year > 1980 and year < 1994: # The 'and' logical operator compares two or more cased  .
+    print("You are a millenial")
+elif year > 1994:
+    print("You are a Gen Z")
