@@ -655,8 +655,14 @@
 
 # Play the computer
 
-year = int(input("what's your year of birth?: "))
-if year > 1980 and year < 1994: # The 'and' logical operator compares two or more cased  .
-    print("You are a millenial")
-elif year > 1994:
-    print("You are a Gen Z")
+# year = int(input("what's your year of birth?: "))
+# if year > 1980 and year < 1994: # The 'and' logical operator compares two or more cased  .
+#     print("You are a millenial")
+# elif year > 1994:
+#     print("You are a Gen Z")
+
+#20/02/2026
+
+# Some errors depend on the input passed to a variable
+# The print() function is very important when testing code line by line.
+# 
