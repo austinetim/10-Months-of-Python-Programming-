@@ -661,8 +661,39 @@
 # elif year > 1994:
 #     print("You are a Gen Z")
 
-#20/02/2026
+# #20/02/2026
 
-# Some errors depend on the input passed to a variable
-# The print() function is very important when testing code line by line.
-# 
+# # Some errors depend on the input passed to a variable
+# # The print() function is very important when testing code line by line.
+
+# # Using the Debugger
+# # When coding, use functions --- create an engine/machine
+
+# # Problem
+# def mutate(a_list):
+#     b_list = []
+#     for item in a_list:
+#         new_item = item * 2
+#     b_list.append(new_item)
+#     print(b_list)
+
+# mutate([1, 2, 3, 5, 8, 13])
+
+# # Solve the problem with the code:
+
+# def mutate(a_list):
+#     b_list = []
+#     for item in a_list:
+#         new_item = item * 2
+#         b_list.append(new_item)
+#     print(b_list)
+
+# mutate([1, 2, 3, 5, 8, 13])
+
+# # How to ddebug more efficiently
+
+# # Take a break
+# # Ask a friend
+# # Run code often(run your code often after every change)
+# # Ask stackOverflow (ask ai nowadays)
+# # A type error is when you are trying to do something with the wrong data type.
