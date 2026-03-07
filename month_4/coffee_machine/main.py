@@ -1,7 +1,3 @@
-from random import choice
-
-print("Hello World!")
-
 # ------Program Requirements-----
 #1.  Print report
 #2.  Check resources sufficient?
@@ -35,6 +31,7 @@ MENU = {
     }
 }
 
+profit = 0
 resources = {
     "water": 300,
     "milk": 200,
@@ -49,3 +46,8 @@ while is_on:
     choice = input("What would you like? espresso/latte/cappuccino: ")
     if choice == "off":
         is_on = False
+    elif choice == "report":
+        print(f"water: {resources["water"]}ml")
+        print(f"milk: {resources["milk"]}ml")
+        print(f"coffee: {resources["coffee"]}g")
+        print(f"money: ${profit}")
