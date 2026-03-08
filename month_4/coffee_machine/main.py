@@ -38,6 +38,14 @@ resources = {
     "coffee": 100
 }
 
+def is_resource_sufficient(order_ingredients):
+    for item in order_ingredients:
+        if order_ingredients[item] >= resources[item]:
+            print(f"Sorry, there is not enough {item}")
+            return False
+    return True
+
+
 # TO_DO Tracking is a very handy feature of Python
 
 # Let the user be able to make their choice and the machine be turned off if need be.
@@ -51,3 +59,6 @@ while is_on:
         print(f"milk: {resources["milk"]}ml")
         print(f"coffee: {resources["coffee"]}g")
         print(f"money: ${profit}")
+    else:
+        drink = MENU[choice]
+        is_resource_sufficient(drink["ingredients"])
