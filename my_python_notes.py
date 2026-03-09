@@ -694,3 +694,43 @@
 # # Run code often(run your code often after every change)
 # # Ask stackOverflow (ask AI nowadays)
 # # A type error is when you are trying to do something with the wrong data type.
+
+
+
+# 09/03/2026
+
+# Procedural programming involves the use of functions to control code logic. The code becomes spaghetti-like as it becomes bulky. Computer works from top to bottom. It is one of the oldest programming paradigms
+
+# OOP --- Object Oriented Programming
+
+# Basically, OOP is concerned with splitting the functionality of a code into different modules that can be worked on independently and can also be reused if needed in the future. It's comparable to a restaurant with different employees with different roles and each of them knowing exactly how to do their tasks. The manager need only instruct the employees, but the execution of tasks is not something they have to worry about.
+"""
+# How To Use OOP
+
+# OOP models a real world object.
+
+# We have to consider the following to model for example a waiter in a restaurant.
+
+For a Waiter: Object
+
+has: attributes -- fancy word for a variable that is associated with an object.
+	is_holding_plate = True
+	tables_responsible = [4, 5, 6]
+
+does: methods --- called methods because they functions that a particular modeled object can do.
+
+	def take_order(table, order):
+		#takes order to chef
+	def take_payment(amount):
+		# add money to restaurant
+
+Our Aim is to model real life objects:
+	things they have: attributes
+	things they can do: methods
+#-------------------------------------------------------------------
+Waiter ----- Class:
+	Betty: Object
+	Henry: Object
+	# We can replicate these objects as many times as we want. We can choose to have 100 waiters depending on the size of the restaurant.
+#-------------------------------------------------------------------
+"""
