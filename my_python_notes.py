@@ -39,7 +39,7 @@
 
 # # b = c
 
-# # #This code is achieves the came result but what if they are immiscible?
+# # #This code is achieving the came result but what if they are immiscible?
 # # c = a + b
 # # a =str(c-a)
 # # b =str( c-b)
@@ -50,11 +50,11 @@
 # # #--------------------------------------------------------------------------------------------------------------------------
 # # #--------------------------------------------------------------------------------------------------------------------------
 # # #Rules for naming variables
-# # #Make your code readabler
-# # #Underscores sepearate multiple words in a variable name
+# # #Make your code readable
+# # #Underscores separate multiple words in a variable name
 # # #No numbers or special characters at the beginning of a variable name
-# # #No special charaters in a variable name with the exception of an underscore
-# # #Do not use built in functions as variable names
+# # #No special characters in a variable name except an underscore
+# # #Do not use builtin functions as variable names
  
  
 
@@ -81,7 +81,7 @@
  
 # # print(3.14159)
 
-# # #Boolean--true and false valus
+# # #Boolean--true and false values
 
 # # True
 # # False
@@ -245,18 +245,18 @@
 
 # #08/01/2026
 
-# #Functions--python has a wide range of built-in funactions--check the python documentation
+# #Functions--python has a wide range of built-in functions--check the python documentation
 
-# # A function can be identified by the its name and parenthesis e.g print(), len(), int(), str(), input(), count(), sample(), choices(), sum().
+# # A function can be identified by the name and parenthesis e.g print(), len(), int(), str(), input(), count(), sample(), choices(), sum().
 
 # #This how you write a function: we define the function using the def keyword, followed by a name
 # # What differentiates a function from a variable is the parenthesis
 # # A function will remain dormant when executed unless it is triggered or call later on in the code. You can define a function and call it any time you have need of it in the code.
 # # To call the function, type the name of the function followed by parenthesis and add the input if need be.
-# # After a function is called, the computer knows how to go and carry out all the instructions encompassed within the fuction.
+# # After a function is called, the computer knows how to go and carry out all the instructions encompassed within the function.
 # #
 
-# # # Defining Fuctions
+# # # Defining Functions
 # # def my_function():
 # #     #Do this
 # #     print("Hello")
@@ -268,7 +268,7 @@
 # # # 10/01/2026
 # # # Indentation--It is very important in python. It defines the scope of a particular program.
 
-# # # Indentatation in practice
+# # # Indentation in practice
 # # def my_function():
 # #     a = 5
 # #     b = 6
@@ -278,7 +278,7 @@
 
 # # # a and b are on the same level of indentation
 # # # my_function() and a/b are not on the same level of indentation
-# # # some people prefer spaces over files. in python3, you can't even mix spaces and tabs in your code.
+# # # some people prefer spaces to files. in python3, you can't even mix spaces and tabs in your code.
 # # # Spaces are preferable. 
 # # # The default number of spaces for indentation in python is 4 spaces or 4 dots.
 
@@ -297,15 +297,15 @@
 
 # # for-loop is great when you are iterating over something and you want to perform an action on every element in that thing. You also use a for-loop when you are iterating over a range of values
 
-# # You use a while-loop when you don't care what number in a sequence you are in, which item you are iterating through in a list and you just simply want to carry out some functionality many times until some sort of condition set.
+# # You use a while-loop when you don't care what number in a sequence you are in, which item you are iterating through in a list, and you just simply want to carry out some functionality many times until some sort of condition set.
 
-# # while-loops are a little more dangerous than for-loops in that in for-loops, you actually set the number of times you want your code to run in advance, while-loops run as long as a condition is true. If you have a condition that doesn't actually evaluates to false, it'll continue to run without breaking potentially crashing your device. It becomes an infinite loop.
+# # while-loops are a little more dangerous than for-loops in that in for-loops, you actually set the number of times you want your code to run in advance, while-loops run as long as a condition is true. If you have a condition that doesn't actually evaluate to false, it'll continue to run without breaking potentially crashing your device. It becomes an infinite loop.
 
 # # 12/01/2026
 
 # # Hangman program
 
-# # "python for education" by google is a great resources
+# # "python for education" by Google is a great resources
 
 # #13/01/2026
 # # It is important to note that while loops require a change in the loop to tell it that the condition has reached.
@@ -361,7 +361,7 @@
 
 # # CAESAR CIPHER
 
-# # To get the index of a paricular letter in a list of alphabets, use the list_name.index(letter)
+# # To get the index of a particular letter in a list of alphabets, use the list_name.index(letter)
 
 # # 27/01/2027
 
@@ -374,24 +374,24 @@
 # # {key:value} -- the key goes first followed by the value
 
 # # A good practice in python when working with a dictionary is to add the key-values on new lines.
-# # Remember to add a comma at the end of the keyt-values
+# # Remember to add a comma at the end of the key-values
 
 # # programming_dictionary = {
 # #     "Bug": "An error in a program that prevents the program from running as expected",
-# #     "Function": "A piece of code that you can easily calol over and over again",
+# #     "Function": "A piece of code that you can easily call over and over again",
 # # }
 
 # # Retrieving an element of a dictionary
 # # You use a key to indicate the item you wanted to retrieve
 # # # The keys are mostly strings
-# # print(programming_dictioonary["Bug"])
+# # print(programming_dictionary["Bug"])
 
 # # Adding new items to dictionary
 
-# # programming_dictioonary["Loop"] = "The action of doing something over and over again"
+# # programming_dictionary["Loop"] = "The action of doing something over and over again"
 
-# # print(programming_dictioonary)
-# # print(programming_dictioonary["Bug"])
+# # print(programming_dictionary)
+# # print(programming_dictionary["Bug"])
 
 # # As good practice, it is always better to start with an empty dictionary
 # # empty_dictionary = {}
@@ -407,7 +407,7 @@
 # # print(programming_dictionary)
 
 # # # Edit an item in a dictionary
-# # # If it finds a key of that name, it will modify it's value; if not, it will be appended at the end of the dictionary
+# # # If it finds a key of that name, it will modify its value; if not, it will be appended at the end of the dictionary
 # # programming_dictionary["Bug"] = "A moth in your computer."
 # # print(programming_dictionary)
 
@@ -416,7 +416,7 @@
 # #     print(f"{key}: {programming_dictionary[key]}")
 
 # # NESTING LISTS AND DICTIONARIES
-# # Sometimes we may decided given the data to be worked on to use dictionaries or lists as the values of keys in dictionaries -- nesting of lists or dictionaries into a dictionary.
+# # Sometimes we may decide given the data to be worked on to use dictionaries or lists as the values of keys in dictionaries -- nesting of lists or dictionaries into a dictionary.
 
 # # capitals = {
 # #     "France": "Paris",
@@ -465,7 +465,7 @@
 # # Here the return keyword is the output keyword
 # # When something is returned in a function, it replaces the function call and becomes the output that can either be printed directly or saved to a variable for later use. 
 # # Any code written in a function after the return function never executes.
-# # The return keyword is also very helpful in flow control to catch errors and avoid repetions of code where necessary 
+# # The return keyword is also very helpful in flow control to catch errors and avoid repetitions of code where necessary
 
 # # 04/02/2026
 
@@ -490,12 +490,9 @@
 # # RECURSION
 # # Recursion is the idea that you can have a function call itself
 
-# # USE CASE
-# # It takes no input and output
-# # def recursive_function():
-# #     #Do something
-# # #We call the recursive function so that it could find the place where it was defined and carry out all of the instructions therein.
-# # recursive_function()
+# # USE CASE # It takes no input and output # def recursive_function(): #     #Do something # #We call the recursive
+# function so that it could find the place where it was defined and carry out all the instructions therein. #
+# recursive_function()
 
 # # Notes:
 # # When using a recursive function with a while loop, care should be taken to avoid infinite loops. It's always a good practice to use recursive functions with a condition.
@@ -524,7 +521,7 @@
 #     # user_cards.append(deal_card)
 #     user_cards.append(deal_card)
 
-#     # A wrong way of getiing the cards
+#     # A wrong way of getting the cards
 
 #     new_card = deal_card # What is returned here is an integer
 #     user_cards += new_card #This line of code is shorthand for:
@@ -565,7 +562,7 @@
 # player_health = 10 # This is a global variable. It is accessible anywhere within the code.
 
 # def drink_potion():
-#     print(player_health) # Global scope makes it possible to aceess the variable from the inside of this function
+#     print(player_health) # Global scope makes it possible to access the variable from the inside of this function
 # drink_potion()
 # print(player_health) # It is also available here because of the global scope.
 
@@ -581,7 +578,7 @@
 
 # # Variables within a function are only have scope applies to them.
 
-# #Variables created within blocks like if, for and while donot have scope applied to them.
+# #Variables created within blocks like if, for and while don't have scope applied to them.
 
 # # HOW TO MODIFY THE GLOBAL SCOPE
 # # Avoid modifying global scope within a function
@@ -628,7 +625,7 @@
 
 # Grace Hopper found a moth in a relay that was preventing her code from working as expected.
 
-# Tips and Techiniques to debug a problem.
+# Tips and Techniques to debug a problem.
 # 1. Describe the problem
 
 ### Debug the code below:
@@ -640,7 +637,7 @@
 
 # # Solution
 # def my_function():
-#     # The range function ommits the upper limit. If you need to use the upper limit you should increase it by 1. 
+#     # The range function omits the upper limit. If you need to use the upper limit you should increase it by 1.
 #     for i in range(1, 21):
 #         if i == 20: # Here, to use i = 20, we need to increase the range to 21.
 #             print("You are at the 20th iteration ")
@@ -657,7 +654,7 @@
 
 # year = int(input("what's your year of birth?: "))
 # if year > 1980 and year < 1994: # The 'and' logical operator compares two or more cased  .
-#     print("You are a millenial")
+#     print("You are a millennial")
 # elif year > 1994:
 #     print("You are a Gen Z")
 
@@ -690,10 +687,10 @@
 
 # mutate([1, 2, 3, 5, 8, 13])
 
-# # How to ddebug more efficiently
+# # How to debug more efficiently
 
 # # Take a break
 # # Ask a friend
 # # Run code often(run your code often after every change)
-# # Ask stackOverflow (ask ai nowadays)
+# # Ask stackOverflow (ask AI nowadays)
 # # A type error is when you are trying to do something with the wrong data type.
