@@ -728,9 +728,26 @@ Our Aim is to model real life objects:
 	things they have: attributes
 	things they can do: methods
 #-------------------------------------------------------------------
-Waiter ----- Class:
+Waiter ----- Class: ---The blueprint that has been duplicated multiple times
 	Betty: Object
 	Henry: Object
 	# We can replicate these objects as many times as we want. We can choose to have 100 waiters depending on the size of the restaurant.
 #-------------------------------------------------------------------
+CHECKOUT TURTLE GRAPHICS FROM THE PYTHON DOCUMENTATION. IT DEMONSTRATES HOW TO APPLY OOP.
+
+
+USING CODE THAT OTHER DEVELOPERS HAVE WRITTEN:
+---We use packages to access the code that other developers have already written to solve a particular problem.
+---Unlike Modules that are usually pre-installed, packages need to be downloaded in to other to be used.
+---It's a lot of files that other people have written collected together.
+YOU CAN FIND PYTHON PACKAGES AT: pypi.org
+
+pypi---python package index.
+---software repository for python developers
+
+To Use an ASCII Table:
+
+----search for pretty table.
+
+---TO USE IT, ADD IT TO THE
 """
