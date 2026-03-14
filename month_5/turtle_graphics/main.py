@@ -1,15 +1,17 @@
 from turtle import Turtle, Screen
 
-timmy_the_turtle = Turtle()
-timmy_the_turtle.shape("turtle") # This is an attribute
-timmy_the_turtle.color("red")
-timmy_the_turtle.forward(100) # This is a method
-timmy_the_turtle.right(90)
-timmy_the_turtle.forward(100)
-timmy_the_turtle.right(90)
-timmy_the_turtle.forward(100)
-timmy_the_turtle.right(90)
-timmy_the_turtle.forward(100)
+tim = Turtle()
+tim.shape("turtle") # This is an attribute
+tim.color("red")
+
+for _ in range(4):
+    tim.forward(100)  # This is a method
+    tim.right(90)
+# tim.forward(100)
+# tim.right(90)
+# tim.forward(100)
+# tim.right(90)
+# tim.forward(100)
 
 
 
