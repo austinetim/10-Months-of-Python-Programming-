@@ -4,6 +4,8 @@ tim = Turtle()
 tim.shape("turtle") # This is an attribute
 tim.color("red")
 
+# DRAWING A SQUARE
+
 # for _ in range(4):
 #     tim.forward(100)  # This is a method
 #     tim.right(90)
@@ -13,11 +15,25 @@ tim.color("red")
 # tim.right(90)
 # tim.forward(100)
 
-for _ in range(15):
-    tim.forward(10)
-    tim.penup()
-    tim.forward(10)
-    tim.pendown()
+# DRAWING DASHED LINES
+
+# for _ in range(15):
+#     tim.forward(10)
+#     tim.penup()
+#     tim.forward(10)
+#     tim.pendown()
+
+#DRAWING A TRIANGLE, SQUARE,
+
+# TRIANGLE
+tim.right(60)
+tim.forward(100)
+tim.right(120)
+tim.forward(100)
+tim.right(120)
+tim.forward(100)
+
+# SQUARE
 
 
 
