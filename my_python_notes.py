@@ -797,3 +797,15 @@ To Use an ASCII Table:
 # user_2 = User("002", "Timothy")
 # print(user_1.id, user_1.username)
 
+# When a function is attached to a class, it is called a method.
+
+#--------------------------------------------------------------
+# TO GENERATE QUESTIONS AND ANSWERS FROM DIFFERENT FIELDS OF KNOWLEDGE:
+
+# oPEN tRIVIA dATABASE IS THE BEST OPTION.
+
+# The way that programmers know how to a particular module is through documentations.
+# StackOverlow is very important when learning how to use modules. Always refer back to the documentation.
+
+# TKInter is a graphical user interface module.
+# It is used to create a graphical user interface in python.
