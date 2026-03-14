@@ -809,3 +809,29 @@ To Use an ASCII Table:
 
 # TKInter is a graphical user interface module.
 # It is used to create a graphical user interface in python.
+
+# WAYS OF IMPORTING MODULES
+
+# import turtle
+# tim = turtle.Turtle()
+
+#from module_name import Module
+# tim = Turtle()
+# ton = Turtle()
+# terry = Turtle()
+
+#from turtle import * --- avoid using it.
+
+# Aliasing Modules
+
+# import turtle as t  --- do this for a module with a really long name.
+# This is best for modules with very long names.
+
+# INSTALLING MODULES
+# There are some modules that can't be imported. They have to be installed.
+# They are not packages with the standard python library-easily accessible but very small
+
+# For very large modules, we use pypi.org database of modules
+
+# import heroes
+# print(heroes.gen())
