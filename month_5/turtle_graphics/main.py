@@ -26,6 +26,8 @@ tim.color("red")
 #DRAWING A TRIANGLE, SQUARE,
 
 # TRIANGLE
+tim.pensize(5)
+tim.pencolor("black")
 tim.forward(100)
 tim.right(120)
 tim.forward(100)
@@ -35,12 +37,14 @@ tim.forward(100)
 #SQUARE
 tim.right(120)
 for _ in range(4):
+    tim.pencolor("red")
     tim.forward(100)  # This is a method
     tim.right(90)
 
 # PENTAGON
 tim.forward(100)
 for _ in range(4):
+    tim.pencolor("blue")
     tim.right(72)
     tim.forward(100)
 
@@ -57,7 +61,39 @@ for _ in range(4):
 tim.right(72)
 tim.forward(100)
 for _ in range(5):
+    tim.pencolor("yellow")
     tim.right(60)
+    tim.forward(100)
+ # HEPTAGON
+tim.right(60)
+tim.forward(100)
+for _ in range(6):
+    tim.pencolor("purple")
+    tim.right(51.42857142857143)
+    tim.forward(100)
+
+ # OCTAGON
+tim.right(51.42857142857143)
+tim.forward(100)
+for _ in range(7):
+    tim.pencolor("brown")
+    tim.right(45)
+    tim.forward(100)
+
+ # NONAGON
+tim.right(45)
+tim.forward(100)
+for _ in range(8):
+    tim.pencolor("orange")
+    tim.right(40)
+    tim.forward(100)
+
+ # OCTAGON
+tim.right(40)
+tim.forward(100)
+for _ in range(9):
+    tim.pencolor("indigo")
+    tim.right(36)
     tim.forward(100)
 
 
