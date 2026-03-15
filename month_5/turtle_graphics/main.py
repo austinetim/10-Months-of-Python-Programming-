@@ -98,21 +98,44 @@ tim.shape("turtle") # This is an attribute
 #     tim.forward(100)
 
 
-# A BETTER WAY OF SOLVING THE CHALLENGE: DRAWING THE 3-10 SIDED POLYGON.
-# Function to Draw the number of sides
-line_color = ["midnight blue", "dark slate blue", "indigo", "purple", "dark green",
-              "medium spring green", "dodger blue", "pale violet red"]
-tim.pensize(5)
-def draw_shape(number_of_sides):
-    angle = 360/number_of_sides
-    for _ in range(number_of_sides):
-        tim.forward(100)
-        tim.right(angle)
+# # A BETTER WAY OF SOLVING THE CHALLENGE: DRAWING THE 3-10 SIDED POLYGON.
+# # Function to Draw the number of sides
+# line_color = ["midnight blue", "dark slate blue", "indigo", "purple", "dark green",
+#               "medium spring green", "dodger blue", "pale violet red"]
+# tim.pensize(5)
+# def draw_shape(number_of_sides):
+#     angle = 360/number_of_sides
+#     for _ in range(number_of_sides):
+#         tim.forward(100)
+#         tim.right(angle)
+#
+# # Loop to iterate through from 3 sided polygon to 10 sided polygon
+# for shape_sides in range(3, 11):
+#     tim.color(random.choice(line_color))
+#     draw_shape(shape_sides)
 
-# Loop to iterate through from 3 sided polygon to 10 sided polygon
-for shape_sides in range(3, 11):
-    tim.color(random.choice(line_color))
-    draw_shape(shape_sides)
+
+# MAKING RANDOM WALKS
+
+#Set up our lists of choices
+colors = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
+directions = [0, 90, 180, 270] # East, North, West, South
+tim.pensize(5)
+for _ in range(300):
+    # set the color randomly
+    current_color = random.choice(colors)
+    tim.color(current_color)
+    #set the angle randomly
+    current_angle = random.choice(directions)
+    tim.setheading(current_angle)
+
+    # move forward
+    tim.forward(30)
+
+
+
+
+
 
 screen = Screen()
 screen.exitonclick()
