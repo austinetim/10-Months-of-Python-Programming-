@@ -835,3 +835,10 @@ To Use an ASCII Table:
 
 # import heroes
 # print(heroes.gen())
+
+# TUPLES -- DATA TYPE
+# A Tuple is data type that has items enclosed by parenthesis. They are ordered.
+# Like Lists, we can access the content of a tuple by indexing the elements.
+# Tuples are immutable - they can't be changed.
+# Why use a tuple?
+# -- when you want to create data that should stay permanent.
