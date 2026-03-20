@@ -842,3 +842,8 @@ To Use an ASCII Table:
 # Tuples are immutable - they can't be changed.
 # Why use a tuple?
 # -- when you want to create data that should stay permanent.
+
+# 19/03/2026
+
+#COLOGRAM: A LIBRARY OF CODE WRITTEN IN PYTHON THAT LETS YOU EXTRACT COLORS FROM IMAGES.
+# - To use external packages in python, we have to install them.
