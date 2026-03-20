@@ -847,3 +847,13 @@ To Use an ASCII Table:
 
 #COLOGRAM: A LIBRARY OF CODE WRITTEN IN PYTHON THAT LETS YOU EXTRACT COLORS FROM IMAGES.
 # - To use external packages in python, we have to install them.
+
+# 19/03/2026
+
+# LISTENING TO KEYSTROKES ON THE KEYBOARD
+
+# We use Event Listeners to listen for any keystrokes from the keyboard.
+# Parenthesis triggers a function to happen then and there. If we want to
+# listen for a keystroke from the keyboard, we omit the parenthesis.
+
+# A HIGHER ORDER FUNCTION
