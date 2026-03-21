@@ -855,5 +855,7 @@ To Use an ASCII Table:
 # We use Event Listeners to listen for any keystrokes from the keyboard.
 # Parenthesis triggers a function to happen then and there. If we want to
 # listen for a keystroke from the keyboard, we omit the parenthesis.
+# If you parse a function as an argument, you omit the parenthesis.
 
 # A HIGHER ORDER FUNCTION
+# Higher Order Functions are important when we want to perform a function after an event occurs
