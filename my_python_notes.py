@@ -859,3 +859,21 @@ To Use an ASCII Table:
 
 # A HIGHER ORDER FUNCTION
 # Higher Order Functions are important when we want to perform a function after an event occurs
+
+#22/03/2026
+
+# INSTANCES
+# How do we create multiple objects from the same class(blueprint)
+# timmy = Turtle() = green
+# tommy = Turtle() = purple
+# timmy and tommy have different states in terms of attributes.
+# timmy and tommy are different instances of the Turtle class. It's just as humans,
+# same species but different attributes and personalities.
+# The state defines what attributes and methods the different instances of the object exhibit.
+
+#28/03/2026
+
+# CLASS INHERITANCE
+# It is the process of  inheriting the behavior and appearance from an existing class.
+# You can inherit both attributes and behaviors
+# To inherit from a class, the super() is used. Check examples for reference.
