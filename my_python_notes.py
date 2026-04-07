@@ -877,3 +877,16 @@ To Use an ASCII Table:
 # It is the process of  inheriting the behavior and appearance from an existing class.
 # You can inherit both attributes and behaviors
 # To inherit from a class, the super() is used. Check examples for reference.
+
+#07/04/2026
+
+#SLICING IN PYTHON
+
+#Slicing in action
+
+piano_keys = ["a", "b", "c", "d", "e", "f", "g"]
+sofa_notations = ("do", "re", "mi", "fa", "so", "la", "ti")
+print(piano_keys[1:2])
+print(piano_keys[1::2])
+print(piano_keys[::-1])
+print(sofa_notations[::2])
