@@ -1,6 +1,6 @@
 from turtle import Screen
 from paddle import Paddle
-
+from ball import Ball
 #Create the screen
 screen = Screen()
 screen.setup(width=800, height=600)
@@ -11,6 +11,7 @@ screen.tracer(0)
 #Move the two paddle to the left and right sides respectively
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
+ball = Ball()
 
 screen.listen()
 screen.onkey(r_paddle.go_up, "Up")
