@@ -1,13 +1,14 @@
 from turtle import Screen
 from paddle import Paddle
 from ball import Ball
+import time
 #Create the screen
 screen = Screen()
 screen.setup(width=800, height=600)
 screen.bgcolor("black")
 screen.title("Pong Game")
 #Disable the animation
-# screen.tracer(0)
+screen.tracer(0)
 #Move the two paddle to the left and right sides respectively
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
@@ -22,6 +23,7 @@ screen.onkey(l_paddle.go_down, "s")
 
 game_is_on = True
 while game_is_on:
+    time.sleep(0.1)
     screen.update()
     ball.move()
 
